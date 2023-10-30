@@ -1,0 +1,54 @@
+.max-width-1 {
+    max-width: 70vw;
+}
+
+.max-width-2 {
+    max-width: 80vw;
+}
+
+
+.baloo{
+    font-family: 'Baloo Bhai ', cursive;
+
+}
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.input{
+    padding: 3px 6px;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin: 0 8px;
+}
+
+.btn{
+    padding: 1px 18px;
+    border: 2px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    /* background-color: green; */
+    background:-webkit-linear-gradient(#c68306 , #921a1d);
+    color: white;
+}
+.btn:active{
+    background: #97b8d6;
+    color: black;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    padding: 17px 0;
+    background-color: #97b8d6;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V-blog</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&family=Roboto:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navigation">
+
+            <div class="left" >
+                <a href="/">
+                    <span class="title"> V-Blog</span>
+
+                </a>
+                
+
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/all-blogs.html">Blogs</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="right">
+                <form action="/search.html" method="get" >
+                    <input type="text" class="input" name="query" placeholder="search here">
+                    <button class="btn">Search</button>
+                </form>
+                <!-- form is for the javascript -->
+                <!-- name= query is also for javascript  -->
+            </div>
+            
+        </nav>
+    </header>
+
+    <main>
+
+        <hr>
+    </main>
+
+    <div class="contact">
+        <div class="contact-form">
+            <h2 class="v-h">Feel free to contact us </h2>
+            <div class="form-box">
+                <input type="text" placeholder="enter your name">
+            </div>
+            <div class="form-box">
+                <input type="text" placeholder="enter your name">
+            </div>
+            <div class="form-box">
+                <input type="text" placeholder="enter your name">
+            </div>
+            <div class="form-box">
+                <input type="text" placeholder="enter your name">
+            </div>
+            <div class="form-box">
+                <input type="text" placeholder="enter your name">
+            </div>
+            <div class="form-box">
+                <textarea name="" id="" cols="30" rows="10" placeholder="How may we help you?"></textarea>
+            </div>
+            <button class="btn"> submit</button>
+            <button class="btn">reset</button>
+           
+            
+        </div>
+
+    </div>
+    
+    <footer>
+        <div class="footer">
+            copyright &copy; www.vblog.com | All rights reserved.
+        </div>
+    </footer>
+
+    <!-- <script>
+          document.addEventListener('scroll' , () => {
+            const header = document.querySelector('header')
+            if (window.scrollY>0){
+                header.classList.add('scrolled')
+            }
+            else{
+                header.classList.remove('scrolled')
+            }
+        })
+    </script> -->
+</body>
+
+</html>
